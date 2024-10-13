@@ -77,9 +77,9 @@ section .hero-projects-links li {
 
 @media (max-width:400px ){
     /* header .hero-info {
-        /* font-size: 1em; */
-    }
-    header .hero-info .hero-name { */
+        /* font-size: 1em; 
+    } */
+    header .hero-info .hero-name { 
         font-size: 1.2em !important;
     }
 
