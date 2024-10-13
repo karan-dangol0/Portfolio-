@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --cursive1: "Qwitcher Grypen", cursive;
+    --bold-font: "Bebas Neue", sans-serif;
+    --cursive2: "Cedarville Cursive", cursive;
+}
+
+body {
+  background: black;
+  color: #fff;
+  /* position: relative; */
+  
+}
+header .hero-info {
+    font-family: var(--bold-font);
+    margin: 30px;
+    font-size: 25px;
+}
+header .hero-info .hero-name{
+    margin-left:.2em;
+    font-family: var(--cursive1);
+    font-size: 60px;
+}
+
+section.info{
+    width: 70vw;
+    height: 50vh;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+section h1{
+    margin: 20px;
+    font-family: var(--bold-font);
+    font-size: 1.5rem;
+    letter-spacing: .5em;
+}
+section h2{
+    margin:20px 0px  20px 0px;
+    font-family: var(--bold-font);
+    letter-spacing: .2em;
+    border-bottom: 2px solid red;
+}
+
+
+section .hero-projects-links{
+    font-family: var(--bold-font)
+}
+
+section .hero-projects-links li {
+    /* list-style: none; */
+    font-size: 30px;
+}
+
+
+@media (max-width: 500px){
+    section h1{
+        letter-spacing: 0.2em;
+    }
+}
+
+@media (max-width:400px ){
+    header .hero-info {
+        /* font-size: 1em; */
+    }
+    header .hero-info .hero-name {
+        font-size: 1.2em !important;
+    }
+
+}
